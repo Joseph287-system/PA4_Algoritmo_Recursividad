@@ -3,7 +3,7 @@
 Proponer y desarrollar una solución algorítmica para un **módulo inteligente de orientación dentro del campus**, integrando recursividad, ordenamiento recursivo y grafos (DFS, BFS y A*) para organizar información del campus, analizar rutas y justificar decisiones técnicas.
 
 ## Integrantes y organización del equipo
-- **[Tu Nombre y Apellido]:** Actividad 1 – Recursividad aplicada (`ZonaCampus.java` y `Recursividad.java`).
+- **[Joseph Antonio Fong Millones]:** Actividad 1 – Recursividad aplicada (`ZonaCampus.java` y `Recursividad.java`).
 - **[Integrante 2]:** Actividad 2 – Ordenamiento recursivo.
 - **[Integrante 3]:** Actividad 3 – Modelado con grafos (DFS, BFS y A*).
 - **[Integrante 4]:** Actividad 4 – Argumentación final, relación con IA, informe PDF y video.
