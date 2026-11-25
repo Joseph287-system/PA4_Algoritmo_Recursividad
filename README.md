@@ -62,25 +62,6 @@ En este caso, Merge Sort facilita el ordenamiento de grandes cantidades de datos
 Además, utiliza el principio Divide y Vencerás, que permite organizar el proceso de manera estructurada y presenta una complejidad temporal de \(O(n\log n)\).
 Por lo tanto, este enfoque resulta conveniente para trabajar con grandes conjuntos de información, facilitando su organización, procesamiento y análisis.
 
-## Actividad 4: Argumentación final y relación con inteligencia artificial
-
-En la solución para el módulo inteligente de orientación dentro del campus se integraron técnicas clave para abordar los desafíos del problema:
-
-- La **recursividad** permitió gestionar la estructura jerárquica del campus a través del principio *Divide y Vencerás*, dividiendo el problema en subproblemas manejables (zonas, subzonas y ambientes). Esto facilitó tareas como el conteo de espacios accesibles, asegurando claridad y terminación efectiva del algoritmo.
-
-- El algoritmo **Merge Sort**, de enfoque recursivo, resultó eficiente para ordenar grandes conjuntos de datos relacionados con rutas y ubicaciones, ayudando a organizar la información para su análisis y procesamiento posterior.
-
-- El modelado del campus mediante un **grafo ponderado y etiquetado** permitió representar adecuadamente ubicaciones y caminos, incorporando distancias y accesibilidad. En este contexto, se aplicaron tres algoritmos de búsqueda:
-
-  - **DFS**, útil para una exploración exhaustiva que descubre conexiones y estructuras dentro del grafo.  
-  - **BFS**, que halla caminos con el menor número de conexiones en grafos no ponderados.  
-  - **A\***, el más recomendado para la búsqueda de rutas óptimas, que combina costos reales y heurísticos para encontrar caminos eficientes y filtrando accesibilidad según criterio.
-
-Por lo tanto, se recomienda una solución híbrida que utilice recursividad para procesar la jerarquía de zonas y el algoritmo **A\*** para la búsqueda optimizada de rutas dentro del grafo. Este enfoque garantiza eficiencia, claridad, y adecuación a las necesidades específicas del usuario.
-
-Esta propuesta está alineada con técnicas fundamentales de inteligencia artificial, como la búsqueda heurística y la descomposición recursiva de problemas complejos, aplicadas a un entorno real. El sistema resultante aporta una base sólida para la toma de decisiones inteligentes y la orientación efectiva en el campus universitario.
-
-
 
 # 01. DEFINIR LOS DATOS
 numeros = [38, 12, 45, 8, 23, 16, 50, 4]
@@ -139,6 +120,26 @@ print("Lista ordenada:", resultado)
 
 - **Actividad 3 (Grafos – DFS, BFS y A*):** [Resumen del grafo, nodos, aristas y comparación de recorridos].
 
-- 
-- **Actividad 4 (Conclusión e IA):** [Justificación técnica y vínculo con IA].
+  
+
+- ## Actividad 4: Argumentación final y relación con inteligencia artificial
+
+En la solución para el módulo inteligente de orientación dentro del campus se integraron técnicas clave para abordar los desafíos del problema:
+
+- La **recursividad** permitió gestionar la estructura jerárquica del campus a través del principio *Divide y Vencerás*, dividiendo el problema en subproblemas manejables (zonas, subzonas y ambientes). Esto facilitó tareas como el conteo de espacios accesibles, asegurando claridad y terminación efectiva del algoritmo.
+
+- El algoritmo **Merge Sort**, de enfoque recursivo, resultó eficiente para ordenar grandes conjuntos de datos relacionados con rutas y ubicaciones, ayudando a organizar la información para su análisis y procesamiento posterior.
+
+- El modelado del campus mediante un **grafo ponderado y etiquetado** permitió representar adecuadamente ubicaciones y caminos, incorporando distancias y accesibilidad. En este contexto, se aplicaron tres algoritmos de búsqueda:
+
+  - **DFS**, útil para una exploración exhaustiva que descubre conexiones y estructuras dentro del grafo.  
+  - **BFS**, que halla caminos con el menor número de conexiones en grafos no ponderados.  
+  - **A\***, el más recomendado para la búsqueda de rutas óptimas, que combina costos reales y heurísticos para encontrar caminos eficientes y filtrando accesibilidad según criterio.
+
+Por lo tanto, se recomienda una solución híbrida que utilice recursividad para procesar la jerarquía de zonas y el algoritmo **A\*** para la búsqueda optimizada de rutas dentro del grafo. Este enfoque garantiza eficiencia, claridad, y adecuación a las necesidades específicas del usuario.
+
+Esta propuesta está alineada con técnicas fundamentales de inteligencia artificial, como la búsqueda heurística y la descomposición recursiva de problemas complejos, aplicadas a un entorno real. El sistema resultante aporta una base sólida para la toma de decisiones inteligentes y la orientación efectiva en el campus universitario.
+
+
+
 - **Video de exposición (YouTube):** [Enlace al video con cámaras encendidas]
