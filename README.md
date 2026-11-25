@@ -113,8 +113,9 @@ resultado = merge_sort(numeros)
 print("Lista original:", numeros)
 print("Lista ordenada:", resultado)
 
+<img width="1155" height="252" alt="image" src="https://github.com/user-attachments/assets/6f2eb750-41d6-4e6c-bc73-874a15c79e6d" />
 
-###### Resultadp
+
 
 - **Actividad 3 (Grafos – DFS, BFS y A*):** [Resumen del grafo, nodos, aristas y comparación de recorridos].
 
