@@ -21,6 +21,44 @@ En `ZonaCampus.java` y `Recursividad.java` (paquete `pa4_algoritmo`) se implemen
 
 ## Siguientes secciones por completar en equipo
 - **Actividad 2 (Ordenamiento recursivo):** [Resumen del algoritmo y criterio de ordenamiento].
+2.1. Planteen un algoritmo recursivo de ordenamiento aplicable a un conjunto de datos del caso.
+Se propone utilizar el algoritmo Merge Sort, que permite ordenar un conjunto de datos de menor a mayor mediante la técnica Divide y Vencerás.
+Para desarrollar el ejercicio utilizaremos el siguiente conjunto de números:
+[38, 12, 45, 8, 23, 16, 50, 4]
+El algoritmo funciona mediante dos condiciones fundamentales:
+•	Caso base: cuando la lista contiene uno o ningún elemento, se considera que ya está ordenada.
+•	Caso recursivo: la función se llama a sí misma para dividir el conjunto de datos en grupos más pequeños hasta llegar al caso base.
+
+
+
+2.2 Describan paso a paso cómo se divide el problema y cómo se obtiene el resultado final.
+El algoritmo Merge Sort desarrolla el proceso mediante las siguientes etapas:
+Paso 1. División del conjunto: Se recibe la lista original y se divide en dos grupos:
+•	Grupo 1: [38, 12, 45, 8]
+•	Grupo 2: [23, 16, 50, 4]
+Paso 2. Subdivisión: Cada grupo vuelve a dividirse en partes más pequeñas hasta obtener listas con un solo elemento.
+[38] [12] [45] [8] [23] [16] [50] [4]
+Paso 3. Caso base: Cuando cada grupo contiene un solo elemento, se detiene la división porque cada elemento individual ya está ordenado.
+Paso 4. Combinación: Se comparan los números y se unen de menor a mayor, formando nuevos grupos ordenados.
+Por ejemplo:
+•	[38] + [12] = [12, 38]
+•	[45] + [8] = [8, 45]
+•	[23] + [16] = [16, 23]
+•	[50] + [4] = [4, 50]
+
+Paso 5. Resultado final: Se combinan los grupos ordenados hasta obtener una sola lista:
+•	Resultado del ordenamiento
+•	[4,8,12,16,23,38,45,50]
+•	Datos ordenados de menor a mayor.
+
+
+2.3. Mencionen por qué el enfoque recursivo puede ser útil en este contexto.
+El enfoque recursivo es útil porque permite resolver problemas complejos dividiéndolos en subproblemas más pequeños y fáciles de procesar.
+En este caso, Merge Sort facilita el ordenamiento de grandes cantidades de datos sin tener que procesar todos los elementos directamente en una sola operación.
+Además, utiliza el principio Divide y Vencerás, que permite organizar el proceso de manera estructurada y presenta una complejidad temporal de \(O(n\log n)\).
+Por lo tanto, este enfoque resulta conveniente para trabajar con grandes conjuntos de información, facilitando su organización, procesamiento y análisis.
+
+
 - **Actividad 3 (Grafos – DFS, BFS y A*):** [Resumen del grafo, nodos, aristas y comparación de recorridos].
 - **Actividad 4 (Conclusión e IA):** [Justificación técnica y vínculo con IA].
 - **Video de exposición (YouTube):** [Enlace al video con cámaras encendidas]
