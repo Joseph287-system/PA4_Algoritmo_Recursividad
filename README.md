@@ -45,8 +45,11 @@ Paso 3. Caso base: Cuando cada grupo contiene un solo elemento, se detiene la di
 Paso 4. Combinación: Se comparan los números y se unen de menor a mayor, formando nuevos grupos ordenados.
 Por ejemplo:
 •	[38] + [12] = [12, 38]
+
 •	[45] + [8] = [8, 45]
+
 •	[23] + [16] = [16, 23]
+
 •	[50] + [4] = [4, 50]
 
 Paso 5. Resultado final: Se combinan los grupos ordenados hasta obtener una sola lista:
