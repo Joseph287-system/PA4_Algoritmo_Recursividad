@@ -6,7 +6,7 @@ Proponer y desarrollar una solución algorítmica para un **módulo inteligente 
 - **[Joseph Antonio Fong Millones]:** Actividad 1 – Recursividad aplicada (`ZonaCampus.java` y `Recursividad.java`).
 - **[Marco Ychuta Saldivar ]:** Actividad 2 – Ordenamiento recursivo.
 - **[Integrante 3]:** Actividad 3 – Modelado con grafos (DFS, BFS y A*).
-- **[Integrante 4]:** Actividad 4 – Argumentación final, relación con IA, informe PDF y video.
+- **[Javier Alonso Gallegos Rodríguez]:** Actividad 4 – Argumentación final, relación con IA, informe PDF y video.
 
 ## Resumen del trabajo: Actividad 1 – Recursividad aplicada
 
