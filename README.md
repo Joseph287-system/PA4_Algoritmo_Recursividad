@@ -147,3 +147,5 @@ Esta propuesta está alineada con técnicas fundamentales de inteligencia artifi
 
 
 - **Video de exposición (YouTube):** [Enlace al video con cámaras encendidas]
+- https://youtu.be/GDVOPBFodK8
+- 
