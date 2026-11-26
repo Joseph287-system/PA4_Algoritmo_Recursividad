@@ -8,7 +8,7 @@ Proponer y desarrollar una solución algorítmica para un **módulo inteligente 
 - **[Wilmer Jamner Guevara Ramos ]:** Actividad 3 – Modelado con grafos (DFS, BFS y A*).
 - **[Javier Alonso Gallegos Rodríguez]:** Actividad 4 – Argumentación final, relación con IA, informe PDF y video.
 
-## Resumen del trabajo: Actividad 1 – Recursividad aplicada
+## Resumen del trabajo: Actividad 1 – Recursividad aplicada l
 
 ### Enfoque y relación con *Divide y vencerás*
 La recursividad consiste en que una función se llame a sí misma sobre instancias más pequeñas hasta llegar a un caso base. En el contexto del módulo de orientación, se articula con *Divide y vencerás* para descomponer la estructura jerárquica del campus (**Campus → Pabellones → Pisos/Áreas → Aulas o Laboratorios**) en subzonas más pequeñas, resolver el cálculo en cada nivel y combinar los resultados obtenidos.
@@ -122,7 +122,7 @@ print("Lista ordenada:", resultado)
 
 
 
-- **Actividad 3 (Grafos – DFS, BFS y A*):** [Resumen del grafo, nodos, aristas y comparación de recorridos].package pa4_algoritmo;
+- ### Actividad(Grafos – DFS, BFS y A*):** [Resumen del grafo, nodos, aristas y comparación de recorridos].package pa4_algoritmo;
 
 import java.util.*;
 
